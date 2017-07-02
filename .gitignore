@@ -1,0 +1,18 @@
+.project
+.settings
+*~
+*.diff
+*.patch
+/*.html
+.DS_Store
+.bower.json
+.sizecache.json
+yarn.lock
+
+npm-debug.log*
+
+# Ignore everything in dist folder except for eslint config
+/dist/*
+!/dist/.eslintrc.json
+
+/node_modules

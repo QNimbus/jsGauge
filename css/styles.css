@@ -1,0 +1,52 @@
+/**
+ * styles.css
+ *
+ *
+ * @license MIT
+ * @version 0.1
+ * @author  B. van Wetten
+ * @updated 2017-06-30
+ * @link    https://github.com/QNimbus/jsGauge.git
+ *
+ *
+ */
+
+.GaugeMeter {
+  position: Relative;
+  text-align: Center;
+  overflow: Hidden;
+  cursor: Default;
+  display: inline-block;
+}
+
+.GaugeMeter span, .GaugeMeter b {
+  width: 54%;
+  position: Absolute;
+  text-align: Center;
+  display: Inline-Block;
+  color: RGBa(0, 0, 0, .8);
+  font-weight: 100;
+  font-family: "Open Sans", Arial;
+  overflow: Hidden;
+  white-space: NoWrap;
+  text-overflow: Ellipsis;
+  margin: 0 23%;
+}
+
+.GaugeMeter[data-style="Semi"] B {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.GaugeMeter s, .GaugeMeter u {
+  text-decoration: None;
+  font-size: .50em;
+  font-weight: 200;
+  opacity: .6;
+}
+
+.GaugeMeter b {
+  color: #000;
+  font-weight: 200;
+  opacity: .8;
+}
